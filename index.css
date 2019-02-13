@@ -130,7 +130,7 @@ ul {
 
 .content-section {
     margin: 1em;
-    background-image: url("file:///C:/Users/Board/Desktop/Новая%20папка%20(3)/800px_COLOURBOX5869917.jpg");
+    background-image: url("images/1.jpg");
     background-repeat: repeat-y;
     background-size: 100%;
     
@@ -352,7 +352,7 @@ ul {
 }
 
 .cart-item-image {
-    width: 75px;
+    width: 175px;
     height: auto;
     border-radius: 10px;
 }
