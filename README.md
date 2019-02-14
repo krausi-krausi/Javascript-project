@@ -1,2 +1,2 @@
 # Javascript-project
-[index](google.com)
+[index](https://www.google.com)
