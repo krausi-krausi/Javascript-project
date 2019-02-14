@@ -1,5 +1,4 @@
-/* reset */
-/*! normalize.css v4.0.0 | MIT License | github.com/necolas/normalize.css */html {
+html {
     font-family: sans-serif;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%
@@ -191,7 +190,10 @@
     animation-name: kenburns-4;
     z-index: 0;
   }
-   @-webkit-keyframes 
+   
+
+
+  @-webkit-keyframes 
   kenburns-1 {  0% {
    opacity: 1;
    -webkit-transform: scale(1.2);

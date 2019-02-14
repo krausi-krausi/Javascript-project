@@ -4,46 +4,26 @@
 <meta charset="utf-8">
 <title>Log In</title>
 <link type="text/css" rel="stylesheet" href="adminpage.css">
-
-
 </head>
 
 <body>
-
         <h1 style="color: rgb(179, 6, 6);">
-
             <form action="index.html" method="post" onsubmit="return check_info()">
                     username:<input type="text" style="background: none; "  name="username" id="username"/>
                     password:<input type="password"  style="background: none;"  name="password" id="password"/> <br> <br>
                     <input type="submit" style="background: none; color: rgb(179, 6, 6);" value="შესვლა"/>
-                    
-                    </form>
-      </h1>  
+            </form>
+        </h1>  
 
 
 <div class="slideshow">
-  <div class="slideshow-image" style="background-image: url('images/slides/1.jpg')"></div>
-  
+  <div class="slideshow-image" style="background-image: url('images/slides/1.jpg')"></div> 
   <div class="slideshow-image" style="background-image: url('images/slides/2.jpg')"></div>
   <div class="slideshow-image" style="background-image: url('images/slides/3.jpg')"></div>
   <div class="slideshow-image" style="background-image: url('images/slides/4.jpg')"></div>
 </div>
 
-<script> function check_info()  {
-        var username = document.getElementById('username').value;
-        var password = document.getElementById('password').value;
-    
-    if (username == "admin" && password == "admin" && username !== "" && password !== "")  {
-    
-    return true;
-    }
-    
-    
-        else {
-            alert('სახელი ან პაროლი არასწორია');
-        return  false;
-    }
-    
-    }</script>
+<script src="adminpage.js"></script>
+
 </body>
 </html>
