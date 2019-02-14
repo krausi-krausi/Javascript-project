@@ -1,2 +1,2 @@
 # Javascript-project
-[index](index.html)
+[index](google.com)
