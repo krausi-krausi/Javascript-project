@@ -1,152 +1,84 @@
-<!DOCTYPE html>
-<html lang="en">
-    
 
-<head>
-  <meta charset="UTF-8">
-  <link type="text/css" rel="stylesheet" href="registration.css">
-  <title>საიტზე რეგისტრაცია</title>
-  
-  
-  
-    
-
-    
-
-</head>
+<html>
+<link type="text/css" rel="stylesheet" href="registration.css">
 
 <body>
 
-    <div class="body"></div>
-		<div class="grad"></div>
-		<div class="header">
-			<div><h1 style="font-size: 28px;">დარეგისტრირდი და შედი <br>ჩვენი პროდუქციის საიტზე</h1></div>
+<div class="login-wrap" style="margin-top: -50px;">
+        <div class="login-html">
+            <input id="tab-1" type="radio" name="tab" class="sign-in" checked><label for="tab-1" class="tab" style="cursor:pointer;">Sign Up</label>
+			<input id="tab-2" type="radio" name="tab" class="sign-up"><label for="tab-2" class="tab" style="cursor:pointer;">Sign In</label>
+			
+            
+			<div class="login-form">
+					<div class="sign-in-htm">
+							<div class="group">
+									<label for="user" class="label">სახელი</label>
+									<input id="user" type="text" class="input">
+								</div>
+								<div class="group">
+									<label for="pass" class="label">გვარი</label>
+									<input id="pass2" type="text" class="input">
+								</div>
+								
+								<div class="group">
+									<label for="pass" class="label">ბალანსი</label>
+									<input id="pass2" type="text" class="input">
+								</div>
+								<div class="group">
+										<label for="pass" class="label">პაროლი</label>
+										<input id="pass" type="password" class="input">
+									</div>
+									<div class="group">
+											<label for="pass" class="label">იმეილი</label>
+											<input id="pass2" type="text" class="input">
+										</div>
+								<div class="sign-up-2" >
+<label for="tab-2" style="cursor: pointer;"><span style="color:#1161ee; font-size: 25px; ">texttextte</span><span style="font-size: 25px;">Sign Up<span style="color:#1161ee; font-size: 25px; ">texttextte</span></label></a>
+								</div>
+								<div class="hr"></div>
+								
+					</div>
+
+
+                <div class="sign-up-htm">
+						
+					
+
+					<div class="group">
+							<label for="user" class="label">სახელი</label>
+							<input id="user1" type="text" class="input">
+						</div>
+						<div class="group">
+							<label for="pass" class="label">პაროლი</label>
+							<input id="pass1" type="password" class="input" data-type="password">
+						</div>
+						<div class="group">
+							<input id="check" type="checkbox" class="check" checked>
+							<label for="check"><span class="icon"></span> დამიმახსოვრე</label>
+						</div>
+						<form action="index.html" onsubmit="return check_info()">
+						<div class="group">
+							<input type="submit" class="button"  value="შესვლა" style="cursor: pointer;">
+						</div>
+						</form>
+						<div class="hr"></div>
+						<div class="foot-lnk">
+							<label for="tab-1" style="cursor: pointer;">დაგავიწყდათ პაროლი?</label>
+						</div>
+
+
+
+				</div>
+			</div>
 		</div>
-		<br>
-		<div class="login" onsubmit="return check_info()">
-                
-                <input type="text" placeholder="სახელი" id="username"><br>
-                <input type="text" placeholder="გვარი" id="password"><br>
-                <input type="text" placeholder="პირადი ნომერი" id="password"><br>
-                <input type="text" placeholder="ბალანსი" id="password"><br>
-                <input type="password" placeholder="პაროლი" id="passwordi"><br>
-                <input type="text" placeholder="მეილი" id="password"><br>
-			<a href="#login">	<input type="button" value="რეგისტრაცია"    onclick="document.getElementById('download').style.display='block'">  </a> 
-        </div>
-        <br> <br> <br> <br> <br>
-        <!--<form style="margin-top: 1000px;" action="submission.html" method="post" onsubmit="return check_info()">
-                username:<input type="text"  name="username1" id="username1"/>
-                პაროლი:<input type="password"  name="password1" id="password1"/>
-                <input type="submit"  value="login" onclick="myFunction()"/>
-                
-                
-                </form>-->
+		
+    </div>
 
-<br> <br> <br>
+	
 
+	<script src="registration.js"> </script>
+	
+	</body>
 
-<div class="two">
-    <div style="margin-top: 500px; padding-top: 20px; margin-left: 490px; background: none; width: 350px;">
-            <div class="container">
-                <div class="five">
-                    <span id="login" style="color: black;">.</span> <br> <br> <br> <br> <br> <br> <br> <br> <br>
-                    <h1 class="animated" style="margin-left: 90px;">საიტზე შესვლა</h1>
-                    </div>
-                <br>
-                <form class="form" action="index.html" onsubmit="return check_info()" >
-                    <input type="text" placeholder="სახელი" id="username1" class="logini" 
-    style="background: none; color: rgb(255, 0, 0); height: 30px; width: 200px;  margin-left: 100px; border: 3px solid rgb(128, 0, 0)"> <br> <br>
-                    <input type="password" placeholder="პაროლი" id="password1"
-                     style="background: none; color: rgb(128, 0, 0);  width: 200px;  height: 30px; margin-left: 100px; border: 3px solid rgb(128, 0, 0)"> <br><br>
-                    <button type="submit" class="pointer"  id="login-button" onclick="myFunction()" style="background: none; color: white;
-                     height: 30px; margin-left: 100px; width: 200px; border: 3px solid rgb(128, 0, 0)">შესვლა</button>
-                </form>
-            </div>
-        </div>
-   <div class="three" style="height: 400px;">
-     .
-   </div>
-      </div>
-
-
-
-
-
-
-
-
-
-      <div class="container" id="contacti"  style="margin-top: -270px;">  
-          <form id="contact" action="" method="post">
-            <h1 style="text-align: center; color: rgb(56, 52, 52); font-size: 36px;">კონტაქტი</h1>
-            
-            <fieldset>
-              <input placeholder="სახელი" type="text" tabindex="1">
-            </fieldset>
-            <fieldset>
-              <input placeholder="გვარი" type="email" tabindex="2" required>
-            </fieldset>
-            <fieldset>
-              <input placeholder="მობილურის ნომერი" type="tel" tabindex="3" required>
-            </fieldset>
-            <fieldset>
-              <input placeholder="იმეილი" type="url" tabindex="4" required>
-            </fieldset>
-            <fieldset>
-              <textarea placeholder="დაწერეთ თქვენი შეტყობინება აქ..." tabindex="5" required></textarea>
-            </fieldset>
-            <fieldset>
-              <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">შეტყობინების გაგზავნა</button>
-            </fieldset>
-            
-          </form>
-        </div>
-
-                  </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</body>
-
-
-<script>
-    
-    function check_info()  {
-  
-  var username = document.getElementById('username').value;
-  var passwordi = document.getElementById('passwordi').value;
-  
-  
-  var username1 = document.getElementById('username1').value;
-  var password1 = document.getElementById('password1').value;
-  
-  if (username1 == username && password1 == passwordi && username1 !== "")  {
-  
-  return true;
-  }
-  
-
-  
-  else    {
-      alert('სახელი ან პაროლი არასწორია !');
-      return  false;
-  }
-  
-  }    
-  </script>
-</html>
+	</html>
